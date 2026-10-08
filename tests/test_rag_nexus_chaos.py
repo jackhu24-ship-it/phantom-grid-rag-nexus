@@ -18,7 +18,7 @@ from pathlib import Path
 
 # Add core path
 sys.path.insert(0, str(Path(__file__).parent))
-from rag_nexus_core import AutonomousRAGNexus, AMDVectorEngine, DocumentChunk
+from src.rag_nexus_core import AutonomousRAGNexus, AMDVectorEngine, DocumentChunk
 
 
 def test_core_initialization_and_vector_math():

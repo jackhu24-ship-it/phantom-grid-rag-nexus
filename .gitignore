@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Secrets & Local IDs
+*.key
+*.pem
+*.token
+.env*
+!.env.example
+
+# Large binary & media files (> 2MB)
+*.mp4
+*.mkv
+*.avi
+*.pdf
+*.zip
+*.tar.gz
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -40,12 +40,12 @@ pip install -r requirements.txt
 
 ### 2. Run Autonomous RAG Engine
 `ash
-python rag_nexus_core.py
+python -m src.rag_nexus_core
 `
 
 ### 3. Launch Interactive Web Console & RESTful API
 `ash
-python rag_nexus_web_app.py
+python -m src.rag_nexus_web_app
 `
 - Open http://127.0.0.1:8000 in your browser.
 - Health Check: GET /api/v1/health
@@ -54,7 +54,7 @@ python rag_nexus_web_app.py
 
 ### 4. Run 1,500 Chaos Verification Benchmark
 `ash
-pytest tests/test_rag_nexus_chaos_challenge.py -v -s
+pytest tests/test_rag_nexus_chaos.py -v -s
 `
 
 ---
