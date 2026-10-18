@@ -5,14 +5,14 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![AMD ROCm](https://img.shields.io/badge/AMD-ROCm_6.2_Accelerated-ED1C24.svg)](https://www.amd.com/en/graphics/servers-solutions-rocm)
 [![PyTorch ROCm](https://img.shields.io/badge/PyTorch-ROCm_Nightly_6.2-orange.svg)](https://download.pytorch.org/whl/nightly/rocm6.2)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-HuggingFace_Spaces-yellow.svg)](https://jackhu24-rag-nexus.hf.space)
+[![Web Console](https://img.shields.io/badge/Web_Console-FastAPI_SSE-yellow.svg)](#-quickstart--local-execution)
 [![Tests](https://img.shields.io/badge/Tests-1500_Chaos_100%25_PASS-success.svg)]()
 [![Throughput](https://img.shields.io/badge/Peak_Throughput-22%2C704_QPS-brightgreen.svg)]()
 
 ---
 
 ## 🌐 Instant Access Links
-- **🚀 Live Interactive Demo**: [https://jackhu24-rag-nexus.hf.space](https://jackhu24-rag-nexus.hf.space)
+- **🚀 Web Console & REST API**: [Quickstart Guide & Local Execution](#-quickstart--local-execution)
 - **📂 Official GitHub Repository**: [https://github.com/jackhu24-ship-it/phantom-grid-rag-nexus](https://github.com/jackhu24-ship-it/phantom-grid-rag-nexus)
 - **🏆 AMD AI League Event Page**: [https://lablab.ai/event/amd-ai-league/match-3](https://lablab.ai/event/amd-ai-league/match-3)
 
