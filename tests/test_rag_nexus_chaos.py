@@ -16,8 +16,8 @@ import json
 import pytest
 from pathlib import Path
 
-# Add core path
-sys.path.insert(0, str(Path(__file__).parent))
+# Add repo root to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.rag_nexus_core import AutonomousRAGNexus, AMDVectorEngine, DocumentChunk
 
 
