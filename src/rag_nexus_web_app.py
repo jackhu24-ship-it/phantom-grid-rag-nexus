@@ -13,7 +13,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
 # Import core engine
-from src.rag_nexus_core import AutonomousRAGNexus
+from rag_nexus_core import AutonomousRAGNexus
 
 app = FastAPI(
     title="PHANTOM GRID :: Autonomous RAG Knowledge Nexus",

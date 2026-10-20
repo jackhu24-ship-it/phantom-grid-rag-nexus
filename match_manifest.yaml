@@ -1,0 +1,28 @@
+match_id: "202610_AMD_AI_League_Match3_RAG"
+tournament_title: "AMD AI League · Match 3: Retrieval-Augmented Generation (RAG)"
+organizer: "AMD ✕ lablab.ai"
+submission_deadline: "2026-10-13 18:00 CEST"
+prize_pool: "AMD Instinct GPU Compute Access & Official Global Recognition"
+official_portal: "https://lablab.ai/event/amd-ai-league/match-3"
+participation_mode: "Solo Closed (PHANTOM GRID)"
+target_track: "High-Performance Autonomous RAG with AMD ROCm Kernel Acceleration"
+phantom_core_weapon: "AMD ROCm 6.2 PyTorch Kernel ✕ CRC64 Self-Healing Index Topology ✕ 1,500-Cycle Chaos Resilience ✕ ASIL-D Deterministic Gate ✕ ZDR 0.000000 MB Memory Scrubbing"
+
+required_deliverables:
+  - "01_專案企劃與架構_Specs"
+  - "02_核心代碼庫_SourceCode"
+  - "03_封面圖_CoverImage_16x9"
+  - "04_簡報投影片_Slides_PDF"
+  - "05_方案B演示影片_DemoVideo_1440P"
+  - "06_線上Demo部署_LiveApp"
+  - "07_官方提交文案_SubmissionPackage"
+  - "08_審計與認證_AuditReceipts"
+  - "09_混沌壓測報告_ChaosReports"
+  - "10_發行包與鎖定版EXE_Releases"
+
+compliance_invariants:
+  spec_first: true
+  vram_ceiling_gb: 50.0
+  zdr_zero_residue_mb: 0.000000
+  vertical_coverage_ratio: 0.82
+  co_signed_by: "COMMANDER JACK HU ✕ COMMANDER XIAOMI"
