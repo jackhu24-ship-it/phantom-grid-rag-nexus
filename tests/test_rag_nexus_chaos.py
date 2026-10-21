@@ -17,7 +17,10 @@ import pytest
 from pathlib import Path
 
 # Add core path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "02_核心代碼庫_SourceCode"))
+repo_root = Path(__file__).resolve().parent.parent
+for p_candidate in [repo_root / "src", repo_root / "02_SourceCode", repo_root / "02_核心代碼庫_SourceCode", repo_root]:
+    if p_candidate.exists() and str(p_candidate) not in sys.path:
+        sys.path.insert(0, str(p_candidate))
 from rag_nexus_core import AutonomousRAGNexus, AMDVectorEngine, DocumentChunk
 
 
